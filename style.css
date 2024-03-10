@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: #030637;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background: linear-gradient(190deg, #910A67, #3C0753);
+    color: #fff;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #2d0d3b;
+    color:#fff;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.search input::placeholder{
+    color: #fff;
+}
+.search button {
+    border: 0;
+    outline: 0;
+    background: #2d0d3b;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    color: #fff;
+}
+.search button i{
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font: 60px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.details1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.details2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sunset .sunrise{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.foo{
+    position: fixed;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    padding: 5px;
+    left: 50%;
+    margin-left: -70px;
+
+}
+.foo i{
+    width: 10px;
+    height: 10px;
+    color: white;
+}
